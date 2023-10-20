@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+/* Add styling to the container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* 20 columns for 800 boxes */
+    gap: 2px; /* Adjust the gap as needed */
+    width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+/* Style for the boxes */
+.square {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    background-color: #fff; /* Initial background color */
+    transition: background-color 1s; /* Smooth transition */
+}
+
+/* Hover effect to change color */
+.square:hover {
+    background-color: #3498db; /* Change the background color on hover */
+}
